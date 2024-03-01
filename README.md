@@ -40,3 +40,4 @@
 
 <img src="ref/demo-img-04.png" alt="demo-img-04" style="zoom:33%;" />
 
+![缩略图](ref/iWonder.png)
