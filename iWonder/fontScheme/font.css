@@ -1,0 +1,52 @@
+/*字体方案*/
+
+/*@font-face {
+  font-family: "Cantarell";
+  src: url('iwonder/Cantarell-VF-fixed.otf');
+}
+*/
+
+/*正文字体*/
+@font-face {
+    font-family: "LXGWWenKai";
+    src: url('font/LXGWWenKai-Regular.ttf');
+}
+
+/*代码块字体*/
+@font-face {
+    font-family: "JetBrainsMono";
+    src: url('font/JetBrainsMono-Regular.ttf');
+}
+
+/*Header 字体*/
+@font-face {
+    font-family: "SourceHanSerifCN";
+    src: url('font/SourceHanSerifCN-Medium.otf');
+}
+
+
+:root {
+    /*文本字体*/
+    --text-font-family: "LXGWWenKai";
+    /*标题字体*/
+    --header-font-family: "SourceHanSerifCN";
+    /*代码块字体*/
+    --code-font-family: "JetBrainsMono";
+    /*默认全局字体*/
+    font-family: var(--text-font-family);
+
+    /*TOC 目录字体*/
+    --toc-font-family: var(--header-font-family);
+    /*sidebar 侧边栏目录字体*/
+    --sidebar-font-family: var(--text-font-family);
+
+    /*setting 目录字体*/
+    --setting-menu-font-family: var(--header-font-family);
+    /*setting 内容字体*/
+    --setting-content-font-family: var(--text-font-family);
+
+    /*preferences偏好设置页面 目录字体*/
+    --preferences-menu-font-family: var(--header-font-family);
+    /*preferences偏好设置页面 内容字体*/
+    --preferences-content-font-family: var(--text-font-family);
+}

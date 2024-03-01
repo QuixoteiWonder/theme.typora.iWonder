@@ -1,0 +1,287 @@
+/* 页面 基础配置 */
+:root {
+    /*基础字体大小*/
+    font-size: 16px;
+    /*页面文本宽度*/
+    /*--text-area-max-width: 85vmax;*/
+    --text-area-max-width: 1500px;
+    /*控制单词如何被拆分换行。normal | break-all | keep-all*/
+    --word-break-mode: break-all;
+    /*控制长度超过一行的单词是否被拆分换行。normal | break-word */
+    --overflow-wrap-mode: break-word;
+}
+
+/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+/*抗锯齿渲染*/
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+/*背景色设置*/
+/*全局 / scope 背景色*/
+body {
+    background-color: var(--scope-bg-color);
+}
+/*文本区域, 背景颜色*/
+#write {
+    background-color: var(--scope-text-color);
+}
+
+
+/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+/*文本域基础设置*/
+#write {
+    font-family: var(--text-font-family);
+    font-size: 1.1rem;
+    color: var(--text-color);
+    /*页面文本域宽度*/
+    max-width: var(--text-area-max-width);
+    line-height: 1.6;
+    word-spacing: 0;
+    letter-spacing: 0;
+    word-break: var(--word-break-mode);
+    overflow-wrap: var(--overflow-wrap-mode);
+    text-align: justify;
+    margin-bottom: 20rem;
+}
+
+/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+/*加粗*/
+strong {
+    color: var(--strong-text-color);
+    background: var(--strong-bg-color);
+}
+
+/*标记高亮*/
+mark {
+    color: var(--mark-text-color);
+    background: var(--mark-bg-color);
+}
+
+/*斜体*/
+em {
+    color: var(--italic-text-color);
+    background: var(--italic-bg-color);
+}
+
+/*下划线*/
+u {
+    color: var(--underline-text-color);
+    background: var(--underline-bg-color);
+}
+
+/*删除线*/
+del {
+    color: var(--deleteline-text-color);
+    background: var(--deleteline-bg-color);
+}
+
+/*超链接*/
+a {
+    color: var(--primary-color);
+    text-decoration: underline solid;
+    margin: 2px;
+    border-bottom: 0;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
+/*图片相关设置 添加投影*/
+img {
+    filter: drop-shadow(0 0 0.3rem var(--img-shadow-color));
+}
+
+/*搜索命中  ctrl + f  文本背景颜色*/
+.md-search-hit {
+    background-color: var(--search-hit-bg-color);
+}
+
+/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+/*行内 `code` 代码块样式设置*/
+code {
+    color: var(--code-text-color);
+    background-color: var(--code-bg-color);
+    font-family: var(--code-font-family);
+    font-style: italic;
+    font-size: 0.9rem;
+    padding: 2px 7px 2px 3px;
+    border-radius: 3px;
+    margin: 2px;
+}
+
+/*多行 ```code``` 代码块样式设置*/
+.md-fences {
+    display: block;
+    background-size: 40px;
+    color: var(--code-text-color);
+    background-color: var(--code-area-bg-color);
+    font-family: var(--code-font-family);
+    font-style: italic;
+    font-size: 0.9rem;
+    padding: 2px 7px 2px 3px;
+    border-radius: 3px;
+    margin: 2px;
+}
+
+/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+/*header 样式设置*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-family: var(--header-font-family);
+    padding: 3px;
+    border-radius: 4px;
+}
+
+#write h1 {
+    color: var(--header-text-color);
+    background-color: var(--h1-bg-color);
+    font-size: 2rem;
+    text-align: center;
+}
+
+#write h2 {
+    color: var(--header-text-color);
+    background-color: var(--h2-bg-color);
+    font-size: 1.8rem;
+}
+
+#write h3 {
+    color: var(--header-text-color);
+    background-color: var(--h3-bg-color);
+    font-size: 1.6rem;
+}
+
+#write h4 {
+    color: var(--header-text-color);
+    background-color: var(--h4-bg-color);
+    font-size: 1.4rem;
+}
+
+#write h5 {
+    color: var(--header-text-color);
+    background-color: var(--h5-bg-color);
+    font-size: 1.2rem;
+}
+
+#write h6 {
+    color: var(--header-text-color);
+    background-color: var(--h6-bg-color);
+    font-size: 1.1rem;
+}
+
+
+/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+/*table 表格设置*/
+table, th, td {
+    text-align: left;
+    min-width: 1.1rem;
+    min-height: 1.1rem;
+    /*font-weight: bold;*/
+    color: var(--text-color);
+    /*background-color: var(--base-text-bg-color);*/
+    border: 2px solid var(--primary-color);
+    padding-left: 3px;
+}
+
+/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+/*列表样式设置*/
+#write li {
+    text-decoration-line: underline;
+    text-decoration-color: var(--li-underline-color);
+}
+
+#write li::marker {
+    color: var(--primary-color);
+}
+
+/*FIXME li 整行下划线方案 */
+li p .md-plain {
+    /*display: block;*/
+    /*border-bottom: 1px solid red;*/
+    /*height: 22px;*/
+    /*margin: 12px 0;*/
+    /* margin:   li里面的下划线位置*/
+}
+
+/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+/*引用样式设置*/
+#write blockquote {
+    display: block;
+    font-size: 0.9rem;
+    overflow: auto;
+    border-left: 3px solid var(--primary-color);
+    padding: 0.5rem 0 0 1rem;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+    text-decoration-line: underline;
+    text-decoration-color: var(--li-underline-color);
+}
+
+
+/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+/*TOC 目录属性设置*/
+.md-toc {
+    font-family: var(--toc-font-family);
+    font-size: 0.8rem;
+    color: var(--toc-text-color);
+    background-color: var(--toc-bg-color);
+    border-radius: 3px;
+    margin: 3px;
+}
+
+/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+/*侧边目录栏 样式设置*/
+#typora-sidebar {
+    font-family: var(--sidebar-font-family);
+    color: var(--sidebar-text-color);
+    background-color: var(--scope-sidebar-color);
+}
+
+/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+/*页面最上方的 打开的本文件名*/
+#title-text {
+    font-family: var(--text-font-family);
+}
+
+/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+/*滚动条 Scrollbar样式设置*/
+::-webkit-scrollbar {
+    width: 0.35rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-bg-color);
+}
+
+/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+/*setting界面 样式设置*/
+#megamenu-menu-sidebar {
+    font-family: var(--setting-menu-font-family);
+    background-color: var(--setting-menu-bg-color);
+    color: var(--setting-menu-text-color);
+}
+
+/*setting导航栏 鼠标悬停样式*/
+#megamenu-menu-sidebar li a:hover {
+    background-color: var(--setting-menu-item-hover-bg-color);
+}
+
+/*setting导航栏 鼠标点击后样式*/
+#megamenu-menu-sidebar li a.active {
+    background-color: var(--setting-menu-item-active-bg-color);
+}
+
+
+/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+/*偏好设置 样式设置*/
+.window .sidebar {
+    font-family: var(--preferences-menu-font-family);
+}
+
+.window .window-content {
+    font-family: var(--preferences-content-font-family);
+}
+
+

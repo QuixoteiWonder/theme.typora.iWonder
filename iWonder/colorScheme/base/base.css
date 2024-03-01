@@ -1,0 +1,115 @@
+/*TODO TODO TODO*/
+/*DOC: 颜色计算: https://juejin.cn/post/6874958645952692238*/
+
+/* TODO 配色方案 参考：https://brandcolors.net/*/
+:root {
+    /*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+    /*主题主色调*/
+    --primary-color: var(--header-color-1);
+
+    /*全局默认内容边界区域，背景色。*/
+    --scope-bg-color: var(--scope-color-2);
+    /*侧边目录栏区域，背景颜色*/
+    --scope-sidebar-color: var(--scope-color-1);
+    /*文本区域, 背景颜色*/
+    --scope-text-color: var(--scope-color-5);
+    /*setting导航栏 背景颜色*/
+    --setting-menu-bg-color: var(--primary-color);
+
+    /*滚动条背景颜色*/
+    --scrollbar-bg-color: var(--scope-color-2);
+
+
+
+    /*全局 文本颜色*/
+    --text-color: var(--text-color-0);
+    /*全局 文本背景颜色*/
+    --text-bg-color: var(--text-color-1);
+
+    /*选中文本的 背景颜色*/
+    --select-text-bg-color: var(--text-color-8);
+    /*搜索(ctrl+f)命中文本的 背景颜色*/
+    --search-hit-bg-color: var(--text-color-8);
+
+
+    /*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+    /*标题 文本颜色*/
+    --header-text-color: var(--header-color-0);
+    /*标题 背景色*/
+    --h1-bg-color: var(--header-color-1);
+    --h2-bg-color: var(--header-color-2);
+    --h3-bg-color: var(--header-color-3);
+    --h4-bg-color: var(--header-color-4);
+    --h5-bg-color: var(--header-color-5);
+    --h6-bg-color: var(--header-color-6);
+
+
+    /*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+    /*代码块  `code` & ```code```  文本颜色*/
+    --code-text-color: var(--text-color);
+    /*代码块  `code`  背景颜色*/
+    --code-bg-color: var(--text-color-2);
+    /*代码块  ```code```  背景颜色*/
+    --code-area-bg-color: var(--code-bg-color);
+
+
+    /*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+    /*加粗  **ele**  文本颜色*/
+    --strong-text-color: var(--text-color);
+    /*加粗  **ele**  背景颜色*/
+    --strong-bg-color: var(--text-bg-color);
+
+    /*标记高亮  ==ele==  文本颜色*/
+    --mark-text-color: var(--text-color);
+    /*标记高亮  ==ele==   背景颜色*/
+    --mark-bg-color: var(--text-color-9);
+
+    /*斜体  *ele*  文本颜色*/
+    --italic-text-color: var(--text-color-6);
+    /*斜体  *ele*  背景颜色*/
+    --italic-bg-color: var(--text-bg-color);
+
+    /*下划线 文本颜色*/
+    --underline-text-color: var(--text-color);
+    /*下划线 背景颜色*/
+    --underline-bg-color: var(--text-color-7);
+
+    /*删除线 文本颜色*/
+    --deleteline-text-color: var(--text-color);
+    /*删除线 背景颜色*/
+    --deleteline-bg-color: var(--text-bg-color);
+
+    /*li列表下划线颜色*/
+    --li-underline-color: var(--text-color-2);
+
+    /*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+    /*图片阴影颜色*/
+    --img-shadow-color: var(--scope-text-color);
+
+
+    /*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+    /*TOC 目录 文本颜色*/
+    --toc-text-color: var(--primary-color);
+    /*TOC 目录 背景颜色*/
+    --toc-bg-color: var(--h6-bg-color);
+
+
+    /*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+    /*侧边导航栏 文本颜色*/
+    --sidebar-text-color: var(--text-color);
+    /*侧边导航栏文本的 背景颜色*/
+    --sidebar-text-bg-color: var(--text-bg-color);
+
+
+    /*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+    /*setting导航栏 背景颜色*/
+    --setting-menu-bg-color: var(--primary-color);
+    /*setting导航栏 文本颜色*/
+    --setting-menu-text-color: var(--header-text-color);
+    /*setting导航栏选项 鼠标悬停 背景颜色*/
+    --setting-menu-item-hover-bg-color: var(--h2-bg-color);
+    /*setting导航栏选项 鼠标选中 背景颜色*/
+    --setting-menu-item-active-bg-color: var(--h6-bg-color);
+
+
+}

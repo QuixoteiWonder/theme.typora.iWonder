@@ -1,0 +1,37 @@
+@import "base/base.css";
+
+
+:root {
+/*基于Header的一系列渐变色，只用于标识标题类内容*/
+/*基于文本处理的一系列渐变色，用于处理文本的特殊标记时候的背景颜色*/
+/*基于全局背景风格的一系列渐变色，用于分割整体界面的模块。*/
+/*xxx--color-0: 标识该背景下，要显示的字体的颜色。*/
+/*使用时，不同模块之间不可以串用。如实在需要，请在对应模块下创建新色卡变量。*/
+    --header-color-0: white;
+    --header-color-1: #1e5397;
+    --header-color-2: #376db6;
+    --header-color-3: #4ca2da;
+    --header-color-4: #91d8f4;
+    --header-color-5: #91a9cd;
+    --header-color-6: #9cb2d2;
+
+    --text-color-0: black;
+    --text-color-1: white;
+    --text-color-2: lightgray;
+    --text-color-3: gray;
+
+    --text-color-4: lightpink;
+    --text-color-5: crimson;
+    --text-color-6: red;
+
+    --text-color-7: lightcyan;
+    --text-color-9: #BDFCC9;
+    --text-color-8: #1bc7c7;
+
+
+    --scope-color-1: gray;
+    --scope-color-2: lightgray;
+    --scope-color-3: #EAEAEF;
+    --scope-color-4: #f7f7f7;
+    --scope-color-5: white;
+}
