@@ -2,8 +2,8 @@
 @import url("iWonder/engineScheme/highlighter.css");
 
 /*字体方案选择*/
-@import url("iWonder/fontScheme/font.css");
+@import url("iWonder/fontScheme/default.css");
 
 /*配色方案选择*/
 /*只留一个使用的方案 放开注释。*/
-@import url("iWonder/colorScheme/blue.css");
+@import url("iWonder/colorScheme/default.css");

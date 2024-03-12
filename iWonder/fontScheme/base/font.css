@@ -1,0 +1,28 @@
+/*字体方案*/
+
+
+:root {
+    /*文本字体*/
+    --text-font-family: "TextFontFamily";
+    /*标题字体*/
+    --header-font-family: "HeaderFontFamily";
+    /*代码块字体*/
+    --code-font-family: "CodeFontFamily";
+    /*默认全局字体*/
+    font-family: var(--text-font-family);
+
+    /*TOC 目录字体*/
+    --toc-font-family: var(--header-font-family);
+    /*sidebar 侧边栏目录字体*/
+    --sidebar-font-family: var(--text-font-family);
+
+    /*setting 目录字体*/
+    --setting-menu-font-family: var(--header-font-family);
+    /*setting 内容字体*/
+    --setting-content-font-family: var(--text-font-family);
+
+    /*preferences偏好设置页面 目录字体*/
+    --preferences-menu-font-family: var(--header-font-family);
+    /*preferences偏好设置页面 内容字体*/
+    --preferences-content-font-family: var(--text-font-family);
+}
