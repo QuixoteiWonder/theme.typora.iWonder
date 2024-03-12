@@ -65,15 +65,3 @@
 > 1. [DownLoad.](https://github.com/ReidLv/theme.typora.iWonder/releases/latest)
 > 2. Unzip and paste everything in the installation package into the theme folder. The theme folder can be opened from`Typora > menu> themes > open themes folder`.
 > 3. Switch Typora theme. (theme name format：`IWxxxx`).
-
-## 预览 / Preview
-
-<img src="ref/demo-img-01.png" alt="demo-img-01" style="zoom: 33%;" />
-
-<img src="ref/demo-img-02.png" alt="demo-img-02" style="zoom:33%;" />
-
-<img src="ref/demo-img-03.png" alt="demo-img-03" style="zoom:33%;" />
-
-<img src="ref/demo-img-04.png" alt="demo-img-04" style="zoom:33%;" />
-
-![缩略图](ref/iWonder.png)
