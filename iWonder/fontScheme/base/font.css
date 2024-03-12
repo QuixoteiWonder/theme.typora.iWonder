@@ -1,37 +1,13 @@
 /*字体方案*/
 
-/*@font-face {
-  font-family: "Cantarell";
-  src: url('iwonder/Cantarell-VF-fixed.otf');
-}
-*/
-
-/*正文字体*/
-@font-face {
-    font-family: "LXGWWenKai";
-    src: url('font/LXGWWenKai-Regular.ttf');
-}
-
-/*代码块字体*/
-@font-face {
-    font-family: "JetBrainsMono";
-    src: url('font/JetBrainsMono-Regular.ttf');
-}
-
-/*Header 字体*/
-@font-face {
-    font-family: "SourceHanSerifCN";
-    src: url('font/SourceHanSerifCN-Medium.otf');
-}
-
 
 :root {
     /*文本字体*/
-    --text-font-family: "LXGWWenKai";
+    --text-font-family: "TextFontFamily";
     /*标题字体*/
-    --header-font-family: "SourceHanSerifCN";
+    --header-font-family: "HeaderFontFamily";
     /*代码块字体*/
-    --code-font-family: "JetBrainsMono";
+    --code-font-family: "CodeFontFamily";
     /*默认全局字体*/
     font-family: var(--text-font-family);
 

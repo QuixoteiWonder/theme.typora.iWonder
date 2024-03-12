@@ -1,0 +1,30 @@
+@import "base/font.css";
+
+/*正文字体*/
+@font-face {
+    font-family: "TextFontFamily";
+    /*正文英文字体*/
+    src: url("font/LXGWWenKai-Regular.ttf"),
+    /*正文中文字体*/
+    url("font/LXGWWenKai-Regular.ttf");
+}
+
+/*标题字体*/
+@font-face {
+    font-family: "HeaderFontFamily";
+    /*标题英文字体*/
+    src: url("font/LXGWWenKai-Regular.ttf"),
+    /*标题中文字体*/
+    url("font/LXGWWenKai-Regular.ttf");
+}
+
+/*代码块字体*/
+@font-face {
+    font-family: "CodeFontFamily";
+    /*代码块英文字体*/
+    src: url("font/JetBrainsMono-Regular.ttf"),
+    /*代码块中文字体*/
+    url("font/LXGWWenKai-Regular.ttf");
+}
+
+

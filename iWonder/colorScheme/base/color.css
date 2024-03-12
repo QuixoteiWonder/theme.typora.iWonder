@@ -8,9 +8,12 @@
     --primary-color: var(--header-color-1);
 
     /*全局默认内容边界区域，背景色。*/
-    --scope-bg-color: var(--scope-color-2);
+    --scope-bg-color: var(--scope-color-3);
     /*侧边目录栏区域，背景颜色*/
     --scope-sidebar-color: var(--scope-color-1);
+    /*正文最上方标题栏区域，背景颜色*/
+    --scope-header-color: var(--scope-color-2);
+
     /*文本区域, 背景颜色*/
     --scope-text-color: var(--scope-color-5);
     /*setting导航栏 背景颜色*/

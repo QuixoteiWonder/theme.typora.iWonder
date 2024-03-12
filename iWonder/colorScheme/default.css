@@ -1,4 +1,4 @@
-@import "base/base.css";
+@import "base/color.css";
 
 
 :root {
@@ -30,8 +30,8 @@
 
 
     --scope-color-1: gray;
-    --scope-color-2: lightgray;
-    --scope-color-3: #EAEAEF;
-    --scope-color-4: #f7f7f7;
+    --scope-color-2: darkgray;
+    --scope-color-3: lightgray;
+    --scope-color-4: white;
     --scope-color-5: white;
 }
