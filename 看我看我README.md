@@ -38,7 +38,7 @@
 >
 > 4. Typora中切换名为`IWRed`的主题。
 
-> You can modify the font and color of this topic arbitrarily by modifying the configuration items in `iWonder > colorScheme > default.css` and `Font > fontScheme > default.css`.
+> You can modify the font and color of this theme arbitrarily by modifying the configuration items in `iWonder > colorScheme > default.css` and `Font > fontScheme > default.css`.
 >
 > Advanced: customize the coexistence of multiple themes.
 >
