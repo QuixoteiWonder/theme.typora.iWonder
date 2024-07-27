@@ -1,0 +1,41 @@
+/** For advanced users. */
+{
+  "defaultFontFamily": {
+    "standard": null, //String - Defaults to "Times New Roman".
+    "serif": null, // String - Defaults to "Times New Roman".
+    "sansSerif": null, // String - Defaults to "Arial".
+    "monospace": null // String - Defaults to "Courier New".
+  },
+  "autoHideMenuBar": false, //Boolean - Auto hide the menu bar unless the `Alt` key is pressed. Default is false.
+
+  // Array - Search Service user can access from context menu after a range of text is selected. Each item is formatted as [caption, url]
+  "searchService": [
+    ["Search with Google", "https://google.com/search?q=%s"]
+  ],
+
+  // Custom key binding, which will override the default ones.
+  // see https://support.typora.io/Shortcut-Keys/#windows--linux for detail
+  // ✨✨参考: https://support.typora.io/Shortcut-Keys/
+  "keyBinding": {
+    "Find":       "Ctrl+F",       //查找
+    "Replace":    "Ctrl+R",       //替换
+    "Strong":     "Ctrl+B",       //加粗
+    "Emphasis":   "Ctrl+I",       //斜体
+    "Strike":     "Ctrl+D",       //删除线
+    "Underline":  "Ctrl+U",       //下划线
+    "Highlight":  "Ctrl+H",       //高亮
+    "Hyperlink":  "Ctrl+L",       //超链接
+    "Code":       "Ctrl+K",       //代码块  Ctrl+Shift+K 多行代码块
+    "Image":      "Ctrl+Shift+I"  //图片
+
+
+
+    // for example: 
+    // "Always on Top": "Ctrl+Shift+P"
+    // All other options are the menu items 'text label' displayed from each typora menu
+  },
+
+  "monocolorEmoji": false, //default false. Only work for Windows
+  "maxFetchCountOnFileList": 500,
+  "flags": [] // default [], append Chrome launch flags, e.g: [["disable-gpu"], ["host-rules", "MAP * 127.0.0.1"]]
+}
