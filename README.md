@@ -50,7 +50,7 @@
 >
 > 2. Copy `iWonder > fontScheme > default.css` and rename it `song.css`, and change the font to Song font.
 >
-> 3. Copy `i-w-blue.css` and rename it `imurwred.css`.
+> 3. Copy `i-w-blue.css` and rename it `i-w-red.css`.
 >
 >    Modify `@ import url ("iWonder/colorScheme/default.css");` text to `@ import url ("iWonder/colorScheme/red.css")`.
 >
